@@ -145,3 +145,4 @@ encore.gen.cue
 /.encore
 node_modules
 /encore.gen
+/.vs
