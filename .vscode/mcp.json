@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "encore-mcp": {
+            "args": [
+                "mcp",
+                "run",
+                "--app=starwars-galaxy-sya2"
+            ],
+            "command": "encore"
+        }
+    }
+}
