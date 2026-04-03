@@ -1,4 +1,6 @@
-# REST API Starter
+# Encore.ts experiments (code kata, practices, explorations, tests or just playing)
+
+[![CI](https://github.com/fernandezja/encore-typescript-experiments/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/fernandezja/encore-typescript-experiments/actions/workflows/ci.yml)
 
 This is a RESTful API Starter with a single Hello World API endpoint.
 
