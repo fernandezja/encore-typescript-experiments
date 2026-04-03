@@ -2,7 +2,10 @@
 
 [![CI](https://github.com/fernandezja/encore-typescript-experiments/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/fernandezja/encore-typescript-experiments/actions/workflows/ci.yml)
 
-This is a RESTful API Starter with a single Hello World API endpoint.
+This is a RESTful API starter with two public endpoints:
+
+- `GET /hello/:name` for personalized greetings.
+- `GET /api/planet` for a static catalog of planets.
 
 [![Deploy to Encore](https://github.com/encoredev/examples/raw/main/assets/deploytoenc.svg)](https://app.encore.cloud/create-app/clone/ts-hello-world)
 
@@ -30,10 +33,18 @@ encore run
 ```
 ### Using the API
 
-To see that your app is running, you can ping the API.
+To see that your app is running, try these endpoints.
+
+Greeting endpoint:
 
 ```bash
 curl http://localhost:4000/hello/World
+```
+
+Planets endpoint:
+
+```bash
+curl http://localhost:4000/api/planet
 ```
 
 ### Local Development Dashboard
